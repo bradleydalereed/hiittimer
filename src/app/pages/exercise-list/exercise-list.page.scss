@@ -1,0 +1,48 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-content {
+    justify-content: flex-start;
+    align-items: stretch;
+    /* border-style: solid;
+    border-width: 1px; */
+}
+
+.flex-content-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column nowrap;
+    border-style: solid;
+    border-width: 0.5px;
+    border-top-width:0;
+    width:40px;
+    background-color:lightgray;
+}
+
+.start-button-flex {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hiit-buttons{
+    background-color: firebrick;
+    color: white;
+    font-size: 28px;
+}
+
+.hiit-buttons-secondary{
+    background-color: white;
+    color: firebrick;
+    font-size: 28px;
+    padding-right: 5px;
+}
+
+.hiit-label {
+    font-size:20px;
+} 

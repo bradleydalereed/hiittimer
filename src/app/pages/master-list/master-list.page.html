@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar color=primary>
+    <ion-title>
+      <div class="flex-container">
+        <span></span>
+        <label class="hiit-label">Exercises</label>
+        <button class="mdc-icon-button material-icons hiit-buttons" (click)='gotoExerciseList();'>reply</button>
+      </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list *ngIf="dataService.masterListLoaded">
+    <ion-item *ngFor="let exercise of dataService.masterList">
+      <ion-toggle class="hiit-toggle" checked="{{ isExerciseInList(exercise.name) }}" value="{{ exercise.name }}" (ionChange)="toggleExercise($event)" ></ion-toggle>
+      <ion-label>{{ exercise.name }}</ion-label>
+      <span (click)="showComponent(exercise.name, exercise.description)" item-right>
+        <ion-icon class="hiit-buttons-secondary" name="information-circle"></ion-icon>
+      </span>
+    </ion-item>
+  </ion-list>
+</ion-content>

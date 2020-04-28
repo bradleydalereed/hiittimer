@@ -1,0 +1,27 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: bottom;
+}
+
+.hiit-buttons {
+    background-color: firebrick;
+    color: white;
+    font-size: 28px;
+}
+
+.hiit-buttons-secondary {
+    background-color: white;
+    color: firebrick;
+    font-size: 28px;
+}
+
+.hiit-toggle {
+    --background-checked: darkslategrey;
+}
+
+.hiit-label {
+    font-size:20px;
+} 

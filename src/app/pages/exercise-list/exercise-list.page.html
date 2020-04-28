@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar color=primary>
+    <ion-title>
+      <div class="flex-container">
+        <button (click)='addExercise();' class="mdc-icon-button material-icons hiit-buttons" item-right>add_circle</button>
+        <label class="hiit-label">HiiT List</label>
+        <button class="mdc-icon-button material-icons  hiit-buttons" (click)='gotoSettings();'>settings</button>
+      </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list *ngIf="dataService.exerciseList.length > 0">
+    <ion-reorder-group (ionItemReorder)="reorderItems($event)" disabled="false">
+     
+      <ion-item *ngFor="let exercise of dataService.exerciseList">
+        <button class="mdc-icon-button material-icons hiit-buttons-secondary" (click)="removeExercise($event, exercise.id)">remove_circle</button>
+        <ion-label>{{exercise.name}}
+        </ion-label>
+        <ion-reorder slot="end"></ion-reorder>
+      </ion-item>
+    </ion-reorder-group>
+  </ion-list>
+
+  <div class="start-button-flex"  >
+    <!-- <ion-button (click)='playFile();' item-right>Play</ion-button> -->
+    <ion-button (click)='start();' item-right>Start</ion-button>
+  </div>
+</ion-content>

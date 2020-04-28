@@ -1,0 +1,25 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: bottom;
+}
+
+.flex-input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hiit-input {
+    text-align: end;
+}
+
+.button-flex {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hiit-label {
+    font-size:20px;
+} 

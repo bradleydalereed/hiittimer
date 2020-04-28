@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar color=primary>
+    <div class="flex-container">
+      <span></span>
+      <label class="hiit-label">HiiT Timer</label>
+      <span>
+        <button class="mdc-icon-button material-icons hiit-buttons" (click)='gotoExercises()'>reply</button>
+      </span>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="timer-flex-container">
+    <div class="circle">
+      <div class="content">
+        <span>
+          <label class="hiit-timer-font" *ngIf="!restPeriod">{{ getCurrentExercise() }}</label>
+          <label class="hiit-timer-font" *ngIf="restPeriod">Rest</label>
+
+          <p class="hiit-timer-label" >{{outputProperTime()}}</p>
+
+          <button class="mdc-icon-button material-icons hiit-buttons-large" *ngIf="complete" (click)='restartWorkout();'>replay</button>
+          <button class="mdc-icon-button material-icons hiit-buttons-large" *ngIf="workoutPaused" (click)='startTimer()'>play_arrow</button>
+          <button class="mdc-icon-button material-icons hiit-buttons-large" *ngIf="!workoutPaused && !complete" (click)='pauseTimer()'>pause</button>
+        </span>
+      </div>
+    </div>
+  </div>
+</ion-content>

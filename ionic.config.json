@@ -1,0 +1,7 @@
+{
+  "name": "simple-hiit-timer",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

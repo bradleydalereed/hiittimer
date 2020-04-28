@@ -1,0 +1,95 @@
+{
+    "exercises":[
+        { 
+            "name":"Burpees",
+            "description":"The killer that no one likes.",
+            "audio":"/assets/audio/burpees.wav"
+        },
+        { 
+            "name":"Push Ups",
+            "description":"Get down on the floor, use arms, push up.",
+            "audio":"/assets/audio/pushups.wav"
+        },
+        { 
+            "name":"Lunges",
+            "description":"Step your left leg out, pull your left leg in, alternate legs, repeat.",
+            "audio":"/assets/audio/lunges.wav"
+        },
+        { 
+            "name":"Jumping Lunges",
+            "description":"Like lunges, but add jumping.",
+            "audio":"/assets/audio/jumpinglunges.wav"
+        },
+        { 
+            "name":"Squats",
+            "description":"Act like your pooping without the toilet.",
+            "audio":"/assets/audio/squats.wav"
+        },
+        { 
+            "name":"Jumping Squats",
+            "description":"Like squats, but jumping.",
+            "audio":"/assets/audio/jumpingsquats.wav"
+        },
+        { 
+            "name":"Jump Rope",
+            "description":"Get a rope, jump over it, rinse and repeat.",
+            "audio":"/assets/audio/jumprope.wav"
+        },
+        { 
+            "name":"Mountain Climbers",
+            "description":"On all fours, now run in place.",
+            "audio":"/assets/audio/mountainclimbers.wav"
+        },
+        { 
+            "name":"Mummy Kicks",
+            "description":"Wrap yourself in toilet paper if you have any, put your arms out, and shuffle kick.",
+            "audio":"/assets/audio/mummykicks.wav"
+        },
+        { 
+            "name":"Jumping Jacks",
+            "description":"Remember just like grade school gym class.",
+            "audio":"/assets/audio/jumpingjacks.wav"
+        },
+        { 
+            "name":"High Knees",
+            "description":"Run in place, but knees up...HIGH.",
+            "audio":"/assets/audio/highknees.wav"
+        },
+        { 
+            "name":"Butt Kicks",
+            "description":"Run in place, but kick yourself in the rear.",
+            "audio":"/assets/audio/buttkicks.wav"
+        },
+        { 
+            "name":"Planks",
+            "description":"On the floor, supported by your forearms, now act like a board.",
+            "audio":"/assets/audio/planks.wav"
+        },
+        { 
+            "name":"Thrusters",
+            "description":"Squat and Press.",
+            "audio":"/assets/audio/thrusters.wav"
+        },
+        { 
+            "name":"Pull Ups",
+            "description":"Just think about pulling the bar down!",
+            "audio":"/assets/audio/pullups.wav"
+        },
+        { 
+            "name":"Ab Roller",
+            "description":"This requires reading the instructions of your ab roller.",
+            "audio":"/assets/audio/abroller.wav"
+        },
+        { 
+            "name":"Wipers",
+            "description":"On back, legs up, wipe the air (wax on, wax off).",
+            "audio":"/assets/audio/wipers.wav"
+        },
+        { 
+            "name":"Bicycle Kicks",
+            "description":"Ride that pretend Peleton  bike on your back.",
+            "audio":"/assets/audio/bicyclekicks.wav"
+        }
+
+    ]
+}
